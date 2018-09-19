@@ -81,7 +81,7 @@ public class StudentManagement {
         System.out.println("Student s01 va s03  " +ss.sameGroup(s01,s03));
         System.out.println("Student s02 va s03  " +ss.sameGroup(s02,s03));
 
-        
+
 
 
 
