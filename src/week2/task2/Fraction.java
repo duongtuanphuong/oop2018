@@ -26,6 +26,7 @@ public class Fraction {
         subtract.numerator=this.numerator*other.denominator-other.numerator*this.denominator;
         subtract.denominator=this.denominator*other.denominator;
         return subtract;
+
         // TODO: Phương thức trừ hai phân số (this và other), trả về đối tượng Fraction mới
     }
 
@@ -69,18 +70,27 @@ public class Fraction {
         else return false;
 
     }
-    public static void main(){
+    public void xuat(){
+        System.out.println(numerator + "/" +denominator);
+    }
+    public static void main(String[] args){
         Fraction a = new Fraction(12,34);
         Fraction b = new Fraction(2,9);
-        Fraction result = new Fraction(1,1);
-        result = a.add(b);
-        System.out.println("ket qua phep cong la :" + result);
-        result = a.subtract(b);
-        System.out.println("ket qua phep tru la :" +result);
-        result = a.multiply(b);
-        System.out.println("ket qua phep nhan la :" +result);
-        result = a.divide(b);
-        System.out.println("ket qua phep chia la :"+result);
-        System.out.println("hai phan so bang nhau :" +a.equals(b));
+        System.out.println("Ket qua phep cong la :");
+        a.add(b).xuat();
+        System.out.println("Ket qua phep tru la :");
+        a.subtract(b).xuat();
+        System.out.println("Ket qua phep nhan la :");
+        a.multiply(b).xuat();
+        System.out.println("Ket qua phep chia la :");
+        a.divide(b).xuat();
+
+       //*result = a.subtract(b);
+       // System.out.println("ket qua phep tru la :" +result);
+       // result = a.multiply(b);
+      //  System.out.println("ket qua phep nhan la :" +result);
+      //  result = a.divide(b);
+      //  System.out.println("ket qua phep chia la :"+result);
+      //  System.out.println("hai phan so bang nhau :" +a.equals(b));
     }
 }
