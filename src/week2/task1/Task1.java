@@ -22,7 +22,7 @@ public class Task1 {
     public static void main(String[] args){
         int a=6;
         int b=9;
-        System.out.println("Uoc chung lon nhat la : "+gcd(a,b));
+        System.out.println("Uoc chung lon nhat la "+gcd(a,b));
         for (int i=0; i<10; i++){
             System.out.println( +fibonacci(i)+" ");
         }
