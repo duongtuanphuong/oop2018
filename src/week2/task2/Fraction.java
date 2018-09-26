@@ -74,15 +74,6 @@ public class Fraction {
         Fraction a = new Fraction(12,34);
         Fraction b = new Fraction(2,9);
         Fraction c = new Fraction(1,1);
-
-
-
-       //*result = a.subtract(b);
-       // System.out.println("ket qua phep tru la :" +result);
-       // result = a.multiply(b);
-      //  System.out.println("ket qua phep nhan la :" +result);
-      //  result = a.divide(b);
-      //  System.out.println("ket qua phep chia la :"+result);
-      //  System.out.println("hai phan so bang nhau :" +a.equals(b));
+        
     }
 }
