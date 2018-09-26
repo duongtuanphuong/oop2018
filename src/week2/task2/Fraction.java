@@ -84,6 +84,8 @@ public class Fraction {
         a.multiply(b).xuat();
         System.out.println("Ket qua phep chia la :");
         a.divide(b).xuat();
+        System.out.println("Hai phan so bang nhau :"+a.equals(b));
+
 
        //*result = a.subtract(b);
        // System.out.println("ket qua phep tru la :" +result);

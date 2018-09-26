@@ -3,9 +3,7 @@ package week2.task1;
 import java.util.Scanner;
 
 public class Task1 {
-    private static Scanner scanner = new Scanner(System.in);
-
-    public static int gcd(int a, int b) {
+        public static int gcd(int a, int b) {
         if (b == 0) return a;
         return gcd(b, a % b);
 
@@ -22,14 +20,10 @@ public class Task1 {
         // TODO: Tìm số fibonacci ở vị trí n
             }
     public static void main(String[] args){
-        System.out.println("nhap so a :");
-        int a =scanner.nextInt();
-        System.out.println("nhap so b :");
-        int b =scanner.nextInt();
-        System.out.println("uoc chung lon nhat cua a va b la :"+ gcd(a,b));
-        int n=scanner.nextInt();
-        System.out.println("day fibonaci la :" );
-        for (int i=0; i<n; i++){
+        int a=6;
+        int b=9;
+        System.out.println("Uoc chung lon nhat la : "+gcd(a,b));
+        for (int i=0; i<10; i++){
             System.out.println( +fibonacci(i)+" ");
         }
 
