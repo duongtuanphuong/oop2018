@@ -2,25 +2,12 @@ package week2.task2;
 
 public class Fraction {
     private int numerator,denominator;
-    public void SetNumerator(int a){
-        numerator=a;
-    }
-    public int setNumerator(){
-        return numerator;
-    }
-    public void getDenominator(int b){
-        denominator=b;
-    }
-    public int getDenominator(){
-        return denominator;
-    }
-
-    // TODO: khai báo các thuộc tính
+    // TODO: khai báo các thu?c tính
 
     public Fraction(int numerator, int denominator) {
         this.numerator=numerator;
         this.denominator=denominator;
-        // TODO: khởi tạo giá trị cho các thuộc tính numberator (tử số), denominator (mẫu số)
+        // TODO: kh?i t?o giá tr? cho các thu?c tính numberator (t? s?), denominator (m?u s?)
     }
 
     public Fraction add(Fraction other) {
@@ -29,7 +16,7 @@ public class Fraction {
         sum.denominator=this.denominator*other.denominator;
         System.out.println(sum.numerator + "/" + sum.denominator);
         return sum;
-        // TODO: Phương thức cộng hai phân số (this và other), trả về đối tượng Fraction mới
+        // TODO: Phuong th?c c?ng hai phân s? (this và other), tr? v? d?i tu?ng Fraction m?i
 
     }
 
@@ -40,7 +27,7 @@ public class Fraction {
         System.out.println(subtract.numerator + "/" + subtract.denominator);
         return subtract;
 
-        // TODO: Phương thức trừ hai phân số (this và other), trả về đối tượng Fraction mới
+        // TODO: Phuong th?c tr? hai phân s? (this và other), tr? v? d?i tu?ng Fraction m?i
     }
 
     public Fraction multiply(Fraction other) {
@@ -49,7 +36,7 @@ public class Fraction {
         multiply.denominator=this.denominator*other.denominator;
         System.out.println(multiply.numerator + "/" + multiply.denominator);
         return multiply;
-        // TODO: Phương thức nhân hai phân số (this và other), trả về đối tượng Fraction mới
+        // TODO: Phuong th?c nhân hai phân s? (this và other), tr? v? d?i tu?ng Fraction m?i
 
     }
 
@@ -60,7 +47,7 @@ public class Fraction {
         System.out.println(divide.numerator + "/" + divide.denominator);
 
         return divide;
-        // TODO: Phương thức chia hai phân số (this và other), trả về đối tượng Fraction mới
+        // TODO: Phuong th?c chia hai phân s? (this và other), tr? v? d?i tu?ng Fraction m?i
 
     }
 
@@ -74,6 +61,6 @@ public class Fraction {
         Fraction a = new Fraction(12,34);
         Fraction b = new Fraction(2,9);
         Fraction c = new Fraction(1,1);
-        
+
     }
 }
