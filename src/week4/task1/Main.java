@@ -10,7 +10,7 @@ public class Main {
         tao.setSoLuong(100);
         tao.setThiTruong("Chợ Đông Xuân");
         System.out.println("Khu vực "+tao.getThiTruong() + " tiêu thụ được  "+tao.getSoLuong() +" quả ");
-        camCaoPhong cam1=new camCaoPhong(10,2);
+        camCaoPhong cam1=new camCaoPhong(5,2);
         camCaoPhong cam2=new camCaoPhong(5,2);
         System.out.println(" Cam Cao Phong có id "+cam1.getId());
     }

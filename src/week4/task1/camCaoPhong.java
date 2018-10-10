@@ -1,6 +1,6 @@
 package week4.task1;
 
-public class camCaoPhong extends HoaQua {
+public class camCaoPhong extends Cam {
     /*
     *
     * Class camCaoPhong kế thừa từ class hoa quả
