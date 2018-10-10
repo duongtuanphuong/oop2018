@@ -6,7 +6,7 @@ public class camCaoPhong extends Cam {
     * Class camCaoPhong kế thừa từ class hoa quả
     *
      */
-    private int id,group;
+    public int id,group;
     camCaoPhong(int id,int group){
         id=id;
         group=group;

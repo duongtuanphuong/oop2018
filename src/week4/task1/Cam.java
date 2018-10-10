@@ -5,8 +5,9 @@ package week4.task1;
 *
  */
 public class Cam extends HoaQua  {
-    private String xuatXu,taste;
-    private int giaBan;
+    private String xuatXu;
+    public String taste;
+    public int giaBan;
     /*
     *
     * Setter/getter cho nguồn gốc của cam

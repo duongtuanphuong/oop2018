@@ -7,7 +7,7 @@ package week4.task1;
  * @since 9/10/2018 10:00
  */
 public class HoaQua {
-    public String ngayNhap;
+    private String ngayNhap;
     public int soLuong;
     /*
     *Phương thức về loại quả và mùi vị

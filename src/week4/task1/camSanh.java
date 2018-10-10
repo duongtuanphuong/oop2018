@@ -7,7 +7,7 @@ public class camSanh extends Cam {
     *
      */
 
-    private int soLuong,canNang;
+    public int soLuong,canNang;
     public void setCanNang(){
         this.canNang=canNang;
     }

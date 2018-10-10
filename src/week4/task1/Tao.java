@@ -1,8 +1,8 @@
 package week4.task1;
 
 public class Tao extends HoaQua {
-    private String thiTruong;
-    private int canNang;
+    public String thiTruong;
+    public int canNang;
     /*
     *
     * Setter/getter về thị trường cho táo
