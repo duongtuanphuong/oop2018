@@ -13,5 +13,6 @@ public class Main {
         camCaoPhong cam1=new camCaoPhong(5,2);
         camCaoPhong cam2=new camCaoPhong(5,2);
         System.out.println(" Cam Cao Phong có id "+cam1.getId());
+        System.out.println("KO BIẾT VIẾT CÁI J VÀO ĐÂY NỮA LUÔN ");
     }
 }

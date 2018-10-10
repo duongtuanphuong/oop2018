@@ -20,7 +20,5 @@ public class Tao extends HoaQua {
     public int getCanNang(){
         return canNang;
     }
-    public void Tr(){
-        System.out.println("Thi truong " +thiTruong + "tiêu thụ được " +canNang +" kg táo");
-    }
+
 }
