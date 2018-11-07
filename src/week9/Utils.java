@@ -58,7 +58,9 @@ public class Utils {
                 public boolean accept(File dir, String name) {
                     return name.startsWith(fileName)&&name.endsWith(".txt");
                 }
+
             });
+            return arr[0];
         }catch (Exception e){
 
         }
@@ -66,12 +68,13 @@ public class Utils {
     }
     public static void main(String[] args){
        //Utils.writeContentToFile("src/test.txt","sdsdsdsdsdsd");
-        Utils.addContentToFile("src/test.txt","dddddd");
+       // Utils.addContentToFile("src/test.txt","dddddd");
        System.out.println(Utils.readContentFromFile("src/test.txt"));
 
-        File d = Utils.findFileByeName("src","test1");
-        if ( d !=null) System.out.println("File đã tìm thấy");
-        else System.out.println("File ko tìm được");
+        File d = Utils.findFileByeName("src","test");
+
+        if (d == null)System.out.println("File ko tìm được");
+        else  System.out.println("File đã tìm thấy");
 
 
     }
