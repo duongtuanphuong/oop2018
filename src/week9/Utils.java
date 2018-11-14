@@ -1,9 +1,7 @@
 package week9;
 
 
-import java.awt.*;
 import java.io.*;
-import java.util.Scanner;
 
 
 public class Utils {
@@ -68,10 +66,10 @@ public class Utils {
     }
     public static void main(String[] args){
        //Utils.writeContentToFile("src/test.txt","sdsdsdsdsdsd");
-       // Utils.addContentToFile("src/test.txt","dddddd");
+        Utils.addContentToFile("src/test.txt","dddddd");
        System.out.println(Utils.readContentFromFile("src/test.txt"));
 
-        File d = Utils.findFileByeName("src","test");
+        File d = Utils.findFileByeName("src","test11");
 
         if (d == null)System.out.println("File ko tìm được");
         else  System.out.println("File đã tìm thấy");
